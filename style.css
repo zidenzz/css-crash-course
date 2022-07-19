@@ -100,3 +100,22 @@ body{
     border-bottom:dotted 1px #333 ;
     list-style-image: url('./images/800px-Arbcom_ru_ready.svg.png');
 }
+
+.my-form{
+    padding: 20px;
+
+}
+ 
+.my-form .form-group{
+    padding-bottom: 10px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input{
+    padding: 8px;
+    width: 100%;
+
+}
