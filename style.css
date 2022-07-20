@@ -18,12 +18,30 @@ a:active{
 }
 
 a:visited{
-    color: blueviolet;
+    
 }
 
 .container{
     width: 80%;
     margin: auto;
+    background-color: whitesmoke;
+}
+
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 5px;
+    border: none;
+}
+
+button:hover{
+    background-color: red;
+    color:white;
+}
+
+.clr{
+    clear: both;
+
 }
 
 body{
@@ -114,8 +132,75 @@ body{
     display: block;
 }
 
-.my-form input{
+.my-form input[type="text"], .my-form textarea{
     padding: 8px;
     width: 100%;
+ 
+}
 
+.block{
+    float: left;
+    width: 33%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: left;
+    width: 30%;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px ;
+    position: relative;
+    background-image: url('../csscheatsheet/images/bg-image.jpeg');
+    background-position: 100px 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.p-box h1{
+    position: absolute;
+    top:40px;
+    left: 200px;
+}
+
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 400px;
+}
+
+.My-List li:first-child{
+    background: red;
+}
+.My-List li:last-child{
+    background: blue;
+}
+
+.My-List li:nth-child(5){
+    background: yellow;
+}
+.My-List li:nth-child(even){
+    background: grey;
 }
